@@ -2,8 +2,11 @@
 Quickly and easily setup a cloud machine for Deep Learning Experimentation in GCP. The quickly, easily parts are WIP.
 
 ## STEPS
-
 ### Completely Script Based Approach
+
+- Ensure [your project's quotas](https://console.cloud.google.com/iam-admin/quotas) allow GPU and sufficient SSD (eg 10TB)
+
+Otherwise the script will hang. If you have a free trial, you will first need to upgrade from it (the free credits can still be used)
 
 - Create [GPU Instance](https://cloud.google.com/compute/docs/gpus/add-gpus#create-new-gpu-instance) on a VM and run it.
 
